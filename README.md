@@ -1,5 +1,7 @@
 ## Introduction to Producer Consumer pattern using Channels
 
+[manuelcanete.com](https://manuelcanete.com/posts/introduccion_patron_consumidor_channels/)
+
 Run the project in one terminal:
 ```bash
 dotnet run --project ProducerConsumerChannels
