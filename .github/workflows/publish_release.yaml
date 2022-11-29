@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Publish release
-        run: gh release create Release_$GITHUB_SHA
+        run: gh release create --repo $GITHUB_REPOSITORY Release_$GITHUB_SHA
         env:
           GH_TOKEN: ${{ github.token }}
